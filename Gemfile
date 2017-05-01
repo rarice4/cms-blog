@@ -61,4 +61,6 @@ gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', bra
 group :production, :staging do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'dragonfly-s3_data_store'
+  gem 'puma'
 end
