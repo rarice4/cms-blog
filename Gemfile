@@ -63,4 +63,5 @@ group :production, :staging do
   gem 'rails_12factor'
   gem 'dragonfly-s3_data_store'
   gem 'puma'
+  gem 'fog-aws'
 end
